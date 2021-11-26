@@ -22,7 +22,7 @@
      <item>
       <layout class="QHBoxLayout" name="horizontalLayout_7">
        <item>
-        <widget class="QLabel" name="label_7">
+        <widget class="QLabel" name="label_id">
          <property name="minimumSize">
           <size>
            <width>100</width>
@@ -35,7 +35,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="lineEdit_7"/>
+        <widget class="QLineEdit" name="id_edit"/>
        </item>
       </layout>
      </item>
@@ -55,7 +55,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="lineEdit"/>
+        <widget class="QLineEdit" name="name_edit"/>
        </item>
       </layout>
      </item>
@@ -75,7 +75,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="lineEdit_2"/>
+        <widget class="QLineEdit" name="RoastDegree_edit"/>
        </item>
       </layout>
      </item>
@@ -95,7 +95,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="lineEdit_3"/>
+        <widget class="QLineEdit" name="GroundOrBeans_edit"/>
        </item>
       </layout>
      </item>
@@ -115,7 +115,7 @@
      <item>
       <layout class="QVBoxLayout" name="verticalLayout_4">
        <item>
-        <widget class="QTextEdit" name="textEdit"/>
+        <widget class="QTextEdit" name="Description_Edit"/>
        </item>
       </layout>
      </item>
@@ -135,7 +135,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="lineEdit_5"/>
+        <widget class="QLineEdit" name="price_edit"/>
        </item>
       </layout>
      </item>
@@ -155,7 +155,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="lineEdit_6"/>
+        <widget class="QLineEdit" name="volume_edit"/>
        </item>
       </layout>
      </item>
@@ -172,6 +172,50 @@
           <string>Изменить</string>
          </property>
         </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_9">
+       <item>
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QLabel" name="msg">
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
        </item>
       </layout>
      </item>
